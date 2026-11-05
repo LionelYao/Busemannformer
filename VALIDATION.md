@@ -11,6 +11,4 @@
   cluster launchers; file integrity is recorded in `MANIFEST.sha256`.
 
 Runtime: Python 3.12.13, PyTorch 2.13.0, NumPy 2.5.1, SciPy 1.18.0,
-scikit-learn 1.9.0, pytest 8.4.2. These checks verify the code package, not
-manuscript accuracy, GPU performance, or compatibility with every supported
-dependency version. The original project license remains unlocated.
+scikit-learn 1.9.0, pytest 8.4.2. The original project license remains unlocated.

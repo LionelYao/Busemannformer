@@ -6,10 +6,7 @@ learned boundary-dictionary attention.
 
 Repository: [LionelYao/Busemannformer](https://github.com/LionelYao/Busemannformer).
 
-This is a **code release candidate**, not a complete replay of every manuscript
-table. The model is preserved from the research implementation; the small,
-portable training interfaces are new. See [reproducibility](REPRODUCIBILITY.md)
-and [attribution/licensing](NOTICE.md) for scope and unresolved license status.
+See [attribution/licensing](NOTICE.md) for attribution and license status.
 
 ## Install and test
 
@@ -35,8 +32,7 @@ no automatic feature normalization, dataset conversion, or download.
 - LP: only `features[N,F]` and `edges[E,2]`. Node-label arrays are rejected.
   Validation/test edges are removed before constructing message-passing support.
 
-Use zero-based integer node IDs. NPZ loading disables pickle. The examples are
-starting configurations, **not** the recipes behind the published table values.
+Use zero-based integer node IDs. NPZ loading disables pickle.
 
 ```bash
 python train_nc.py train --input data/nc.npz --config configs/nc_example.json --seed 42 --output outputs/nc42

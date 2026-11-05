@@ -12,7 +12,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 TOP_LEVEL = (
-    ".gitignore", "README.md", "REPRODUCIBILITY.md", "NOTICE.md", "VALIDATION.md",
+    ".gitignore", "README.md", "NOTICE.md", "VALIDATION.md",
     "SOURCE_PROVENANCE.json", "pyproject.toml", "requirements.txt",
     "busemann_transformer.py", "paper_lp_model.py", "paper_lp_splits.py",
     "train_nc.py", "train_lp.py",
