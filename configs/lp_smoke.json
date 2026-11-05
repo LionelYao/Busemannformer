@@ -1,0 +1,10 @@
+{
+  "width": 8,
+  "heads": 2,
+  "layers": 1,
+  "dropout": 0.0,
+  "epochs": 3,
+  "patience": 3,
+  "valid_fraction": 0.10,
+  "test_fraction": 0.15
+}

@@ -1,0 +1,12 @@
+{
+  "d_model": 64,
+  "num_heads": 4,
+  "num_layers": 2,
+  "dropout": 0.1,
+  "nc_head": "hypcls",
+  "learning_rate": 0.0005,
+  "weight_decay": 0.0001,
+  "max_epochs": 500,
+  "patience": 80,
+  "grad_clip": 1.0
+}

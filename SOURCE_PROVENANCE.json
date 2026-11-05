@@ -1,0 +1,47 @@
+{
+  "origin": "author research workspace",
+  "release_date": "2026-11-04",
+  "scope": "Selected model and regression-test sources; not the full historical experiment archive",
+  "sources": [
+    {
+      "original_sha256": "b8cfe687122183d1bc8d85c7a4cb841b3c2d2b8c2d9b2cd73f2c94dacb0456d5",
+      "path": "busemann_transformer.py"
+    },
+    {
+      "original_sha256": "cc7c7a61bbc86fb6810d17f11585a34c96640a1889dcf92b1d76c0ca86d0c455",
+      "path": "paper_lp_model.py"
+    },
+    {
+      "original_sha256": "5dab7eab0519cd70eb35113bd5b97d1f9fcb0c4ac0a86e38f4b0df2b9a5af696",
+      "path": "paper_lp_splits.py"
+    },
+    {
+      "original_sha256": "548bc48990ec07b6d29bc98c6d1034b8b902ab691e2a6562cbfce1385b1496b4",
+      "path": "tests/test_linear_hsa.py"
+    },
+    {
+      "original_sha256": "4ad77eb8ebd377e4360246eed53e6d2a36f0f57e08cbde4f1b7bfb258d738c77",
+      "path": "tests/test_boundary_calibration.py"
+    },
+    {
+      "original_sha256": "e36a8d95b05c5d2116309dc5daa871edb6a9ba35b6cb3e54e67ee74a2b4f044a",
+      "path": "tests/test_boundary_exponent_anchor.py"
+    },
+    {
+      "original_sha256": "6cc3470c4612af43684dd7236b005b4a7709003508de742b8415f8176eca8def",
+      "path": "tests/test_boundary_key_normalization.py"
+    },
+    {
+      "original_sha256": "3309d0ef479128587688ad5f7746b2bae1aa6b7896d08e1a3245a1ddffd31aca",
+      "path": "tests/test_busemann_score_convention.py"
+    },
+    {
+      "original_sha256": "124e2baacc6f44f7c3ec881a531b347b43239d586b5a85b4d3f7d7681aabfbce",
+      "path": "tests/test_paper_lp_model.py"
+    },
+    {
+      "original_sha256": "6d1fb5801bef6913e0292a3c8bee27b112e83ec1b580ca65d65b3cf7c791f1cd",
+      "path": "tests/test_paper_lp_splits.py"
+    }
+  ]
+}

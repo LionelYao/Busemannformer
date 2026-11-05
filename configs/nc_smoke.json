@@ -1,0 +1,9 @@
+{
+  "d_model": 8,
+  "num_heads": 2,
+  "num_layers": 1,
+  "dropout": 0.0,
+  "nc_head": "hypcls",
+  "max_epochs": 3,
+  "patience": 3
+}

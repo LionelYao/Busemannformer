@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "busemannformer"
+version = "0.1.0"
+description = "Horospherical self-attention and portable graph-learning examples"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "torch>=2.7,<3",
+  "numpy>=1.26,<3",
+  "scipy>=1.13,<2",
+  "scikit-learn>=1.5,<2",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
+
+[project.scripts]
+busemannformer-nc = "train_nc:main"
+busemannformer-lp = "train_lp:main"
+
+[tool.setuptools]
+py-modules = ["busemann_transformer", "paper_lp_model", "paper_lp_splits", "train_nc", "train_lp"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra"
